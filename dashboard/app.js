@@ -7,7 +7,7 @@ async function runTest() {
     statusBox.innerHTML = "⚡ Starting test… please wait.";
 
     try {
-        const response = await fetch("http://YOUR_AWS_IP:3000/run");
+        const response = await fetch("http://13.232.238.6:3000/run");
         
         const reader = response.body.getReader();
         const decoder = new TextDecoder();
